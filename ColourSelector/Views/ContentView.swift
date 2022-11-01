@@ -60,18 +60,21 @@ struct ContentView: View {
                 MonochromaticPaletteView(hue: hue)
                 
                 Spacer()
+                
+                Button(action: {
+                    // Save the current palette
+                    savePalette()
+                }, label: {
+                    Text("Save")
+                        .font(.subheadline.smallCaps())
+                })
+                .buttonStyle(.bordered)
             }
                                                 
-            Spacer()
-            
-            Button(action: {
-                // Save the current palette
-                savePalette()
-            }, label: {
-                Text("Save")
-                    .font(.subheadline.smallCaps())
-            })
-            .buttonStyle(.bordered)
+            List(savedPalettes) { palette in
+                MonochromaticPaletteView(hue: palette.hue,
+                                        showTitle: false)
+            }
             
         }
         .padding()

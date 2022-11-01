@@ -12,6 +12,7 @@
 		81077741290B082A00E67DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81077740290B082A00E67DD4 /* Assets.xcassets */; };
 		81077744290B082A00E67DD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81077743290B082A00E67DD4 /* Preview Assets.xcassets */; };
 		8107774D290B123200E67DD4 /* ColourSwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8107774C290B123200E67DD4 /* ColourSwatchView.swift */; };
+		8A132685290C633D0041668C /* MonochromaticPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A132684290C633D0041668C /* MonochromaticPaletteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		81077740290B082A00E67DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81077743290B082A00E67DD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8107774C290B123200E67DD4 /* ColourSwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourSwatchView.swift; sourceTree = "<group>"; };
+		8A132684290C633D0041668C /* MonochromaticPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MonochromaticPaletteView.swift; path = "../../../../../Desktop/AP Computer Science/MonochromaticPaletteView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				8107774C290B123200E67DD4 /* ColourSwatchView.swift */,
+				8A132684290C633D0041668C /* MonochromaticPaletteView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			files = (
 				8107773F290B082900E67DD4 /* ContentView.swift in Sources */,
 				8107773D290B082900E67DD4 /* ColourSelectorApp.swift in Sources */,
+				8A132685290C633D0041668C /* MonochromaticPaletteView.swift in Sources */,
 				8107774D290B123200E67DD4 /* ColourSwatchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
